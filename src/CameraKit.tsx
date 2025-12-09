@@ -13,6 +13,7 @@ const LENS_LIST: LensItem[] = [
     { id: '49bcbaee-a8a4-419f-a37d-35a35ac1c896', groupId: '44b63370-6800-4615-a02e-f69c6ee22b86', name: 'Lens 1' },
     { id: 'e56f2aab-2c0a-41cc-b231-2093f44a5def', groupId: '44b63370-6800-4615-a02e-f69c6ee22b86', name: 'Lens 2' },
     { id: '190cff09-43c1-446b-8ef9-1edc1ec44fab', groupId: '44b63370-6800-4615-a02e-f69c6ee22b86', name: 'Lens 3' },
+    { id: 'd878a895-ee32-4443-8c68-cd3b1ec846a7', groupId: '44b63370-6800-4615-a02e-f69c6ee22b86', name: 'Lens 4' },
 ];
 
 const CameraKit = () => {
