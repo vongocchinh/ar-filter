@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { bootstrapCameraKit, CameraKitSession, CameraKit as CameraKitType } from '@snap/camera-kit';
 
 // Định nghĩa interface cho lens
