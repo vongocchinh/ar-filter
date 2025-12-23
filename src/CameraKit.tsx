@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { bootstrapCameraKit, CameraKitSession, CameraKit as CameraKitType } from '@snap/camera-kit';
 
 // Định nghĩa interface cho lens
@@ -259,6 +260,9 @@ const CameraKit = () => {
                 </div>
             </div>
         </div>
+        <footer className="fixed bottom-0 right-0 p-2 z-[60] text-[10px] text-gray-500 bg-gray-900/50 backdrop-blur-sm rounded-tl-lg">
+            <Link to="/privacy-policy" className="hover:text-gray-300 transition-colors">Privacy Policy</Link>
+        </footer>
     </body>
 };
 
